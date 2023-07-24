@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black !important ;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100%;
+    clip-path: circle(45% at 50% 50%);
+    background-color: aqua;
+}
+.cart{
+    position: absolute;
+    top:15%;
+    left: 47.9%;
+    width: 36.6em;
+    justify-content: center;
+}
+.btn-info{
+    color: white;
+}
